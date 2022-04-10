@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#map {
+  width: 1100px;
+  height: 700px;
+  margin: 15px;
+  border: 2px solid black;
+}
+
+.star {
+  font-size: 15px;
+}
+
+.popup-text {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 0.8;
+}
+
+.popup-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 0.8;
+}
+
+.tooltip-style,
+.leaflet-tooltip {
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  padding: 3px !important;
+  margin: 3px !important;
+  line-height: 14px;
+}
+
+.info {
+  padding: 6px 8px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.legend {
+  line-height: 24px;
+  color: #555;
+}
+.legend i {
+  float: left;
+  width: 30px;
+  height: 18px;
+  margin-right: 10px;
+  opacity: 1;
+  border: 1px solid black;
+}
